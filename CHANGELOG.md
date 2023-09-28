@@ -4,6 +4,14 @@
 
 [1]: https://www.npmjs.com/package/nodejs-spanner?activeTab=versions
 
+## [7.0.1](https://github.com/googleapis/nodejs-spanner/compare/v7.0.0...v7.0.1) (2023-09-28)
+
+
+### Bug Fixes
+
+* **deps:** Update dependency @types/stack-trace to v0.0.31 ([#1924](https://github.com/googleapis/nodejs-spanner/issues/1924)) ([96af405](https://github.com/googleapis/nodejs-spanner/commit/96af4051c6717dfcbbc6e117e3ecd7f8e9dd758a))
+* **deps:** Update dependency google-gax to v4.0.4 ([#1926](https://github.com/googleapis/nodejs-spanner/issues/1926)) ([361fe6a](https://github.com/googleapis/nodejs-spanner/commit/361fe6a812f56c6834f1f7c7db60fc1083243768))
+
 ## [7.0.0](https://github.com/googleapis/nodejs-spanner/compare/v6.16.0...v7.0.0) (2023-08-30)
 
 
