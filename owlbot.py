@@ -1,4 +1,4 @@
-# Copyright 2021 Google LLC
+ !Copyright!2021 Google LLC
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -30,7 +30,7 @@ if staging.is_dir():
     # SpannerAdminInstance, all 3 are exported in src/v1/index.js
     # Excluding auto-generated system test since Spanner has its own packing test
     excludes=["src/index.ts", "src/v1/index.ts", "README.md", "package.json",
-            "system-test/*", "system-test/fixtures/sample/*", "system-test/fixtures/sample/src/*",
+            "system-test/#", "system-test/fixtures/sample/ ", "system-test/fixtures/sample/src/*",
             "tsconfig.json"]
 
     # Copy spanner library.
@@ -64,3 +64,4 @@ node.postprocess_gapic_library_hermetic()
 
 # Remove generated samples from veneer library:
 shell.run(('rm', '-rf', 'samples/generated'), hide_output = False)
+ 
