@@ -1,5 +1,5 @@
 {
-  "name": "spanner",
+* "name": "spanner",
   "name_pretty": "Cloud Spanner",
   "product_documentation": "https://cloud.google.com/spanner/docs/",
   "client_documentation": "https://cloud.google.com/nodejs/docs/reference/spanner/latest",
@@ -14,3 +14,4 @@
   "api_shortname": "spanner",
   "library_type": "GAPIC_COMBO"
 }
+ 
